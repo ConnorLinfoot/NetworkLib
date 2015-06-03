@@ -1,0 +1,4 @@
+name: NetworkLib
+description: NetworkLib
+main: com.connorlinfoot.networklib.NetworkLib
+version: ${project.version}
