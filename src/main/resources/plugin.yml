@@ -1,4 +1,4 @@
 name: NetworkLib
-description: NetworkLib
+description: NetworkLib is a all in one network plugin.
 main: com.connorlinfoot.networklib.NetworkLib
 version: ${project.version}
