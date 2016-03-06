@@ -1,4 +1,6 @@
-package com.connorlinfoot.networklib.API;
+package com.connorlinfoot.networklib.Game;
+
+import com.connorlinfoot.networklib.NetworkAPI;
 
 public class Game {
     private NetworkAPI networkAPI;

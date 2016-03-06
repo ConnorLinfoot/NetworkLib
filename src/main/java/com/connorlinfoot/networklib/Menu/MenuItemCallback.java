@@ -1,4 +1,4 @@
-package com.connorlinfoot.networklib.API;
+package com.connorlinfoot.networklib.Menu;
 
 /**
  * Created by Connor on 03/06/15.

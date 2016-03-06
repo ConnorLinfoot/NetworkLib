@@ -1,4 +1,4 @@
-package com.connorlinfoot.networklib.API;
+package com.connorlinfoot.networklib.Menu;
 
 import org.bukkit.inventory.ItemStack;
 

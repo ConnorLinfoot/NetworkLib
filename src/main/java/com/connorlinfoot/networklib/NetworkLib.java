@@ -1,6 +1,5 @@
 package com.connorlinfoot.networklib;
 
-import com.connorlinfoot.networklib.API.NetworkAPI;
 import org.bukkit.ChatColor;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.plugin.java.JavaPlugin;

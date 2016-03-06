@@ -1,6 +1,4 @@
-package com.connorlinfoot.networklib.API;
-
-import com.connorlinfoot.networklib.NetworkLib;
+package com.connorlinfoot.networklib;
 
 public class NetworkAPI {
     private NetworkLib instance;
