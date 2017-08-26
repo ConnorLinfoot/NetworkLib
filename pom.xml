@@ -7,14 +7,21 @@
     <groupId>com.connorlinfoot</groupId>
     <artifactId>NetworkLib</artifactId>
     <version>0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
 
     <name>NetworkLib</name>
-    <url>http://connorlinfoot.com</url>
+    <description>An awesome project.</description>
+    <url>https://connorlinfoot.com</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
 
     <build>
         <defaultGoal>clean package install</defaultGoal>
@@ -39,14 +46,21 @@
                     <target>1.6</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     <dependencies>
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot</artifactId>
-            <version>1.9-SNAPSHOT</version>
-            <scope>provided</scope>
+            <groupId>org.bukkit</groupId>
+            <artifactId>bukkit</artifactId>
+            <version>1.8-R0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
