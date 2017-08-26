@@ -1,13 +1,8 @@
 package com.connorlinfoot.networklib.Modules;
 
-import com.connorlinfoot.networklib.Modules.Game.GameSettingsOld;
-import com.connorlinfoot.networklib.Modules.Game.GameState;
-
 public abstract class Module {
-    private String name;
-    private String slug;
-    private GameSettingsOld gameSettings;
-    private GameState gameState = GameState.WAITING;
+    protected String name;
+    protected String slug;
 
     public Module(String name, String slug) {
         this.name = name;

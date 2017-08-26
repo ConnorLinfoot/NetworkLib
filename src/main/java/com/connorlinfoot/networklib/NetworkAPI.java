@@ -57,7 +57,7 @@ public class NetworkAPI {
             players.remove(uuid);
     }
 
-    public ArrayList<NetworkPlayer> getOnlineCovePlayers() {
+    public ArrayList<NetworkPlayer> getOnlineNetworkPlayers() {
         ArrayList<NetworkPlayer> covePlayers = new ArrayList<>();
         for (Player player : Bukkit.getOnlinePlayers())
             covePlayers.add(getNetworkPlayer(player));
